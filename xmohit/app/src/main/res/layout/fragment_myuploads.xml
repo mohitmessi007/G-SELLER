@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="layout.myuploads">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/show_my_uploads"
+        android:textAlignment="center"
+        android:id="@+id/but"
+        android:onClick="shows"/>
+
+</LinearLayout>

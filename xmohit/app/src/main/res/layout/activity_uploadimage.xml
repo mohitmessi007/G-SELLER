@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.mohit.xmohit.uploadimage">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/brows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5sp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="@string/browse_from_gallery" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10sp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:text="@string/browse_from_camera" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/common_full_open_on_phone" />
+
+    <EditText
+        android:id="@+id/imagename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/image3"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="@string/description"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/upload_image" />
+</LinearLayout>
+</ScrollView>
